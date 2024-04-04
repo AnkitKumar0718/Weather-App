@@ -1,0 +1,101 @@
+body{
+
+background-image: url("https://t4.ftcdn.net/jpg/06/23/97/83/360_F_623978380_Z3znvldYFwuXoerKmtBBsoivhcFZT0P0.jpg");
+
+}
+
+.container{
+    width:387px;
+    height:500px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg ,#130754d2 0%, #3b2f80 100%);
+}
+
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap:14px;
+    padding-top: 30px;
+}
+
+.top-bar input{
+    display: flex;
+    width:242px;
+    height: 38px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    border-radius: 40px;
+    background: #ebfffc;
+    color:#626262;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.search-icon{
+    display: flex;
+    background: #ebfffc;
+    justify-content: center;
+    align-items: center;
+    width:48px;
+    height: 38px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.weather-image{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.cloud_icon{
+    width: 160px;
+    height: 160px;
+}
+
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 400;
+    color:white;
+}
+
+.weather-location {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 400;
+    color:white;
+}
+
+.data-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color:white;
+}
+
+.element{
+    margin:auto;
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
+
+.data{
+    font-size: 24px;
+    font-weight: 350;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.icon{
+    margin-top: 1px;
+}
